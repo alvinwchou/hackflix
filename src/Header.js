@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 
 
-export default function() {
+export default function Header() {
     return(
         <header>
             {/* wrap the h1 in a Router link which navigates back to the homepage */}
