@@ -29,7 +29,7 @@ export default function MovieInfo() {
         }).then( (apiData) => setDetails(apiData.data))
 
     // specify that this side effect should only one time after the component has first rendered
-    }, [])
+    }, [movie_id])
     // use axios to make a request to the movie id endpoint
 
     return(

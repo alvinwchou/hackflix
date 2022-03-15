@@ -30,7 +30,7 @@ export default function MovieCatalogue() {
         
     
 
-    }, [] );
+    }, [movies] );
     return(
         <section>
 
